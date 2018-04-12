@@ -2,7 +2,7 @@ from random import *
 import math
 
 def is_prime(num):
-    if num == 0:
+    if num < 1:
         return False;
     elif num == 1:
         return False;
